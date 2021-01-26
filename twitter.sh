@@ -1,0 +1,2129 @@
+#!/bin/bash
+for ((i=1;i<=1000000;i++)); do
+curl --socks5-hostname localhost:9050  'https://twitter.com/h4j3s' \
+  -H 'authority: twitter.com' \
+  -H 'dnt: 1' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: none' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/polyfills.4d8d59c5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'origin: https://twitter.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/vendors~main.f7f618b5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'origin: https://twitter.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/i18n/ar.1ed3b2b5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'origin: https://twitter.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/main.42bd4845.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'origin: https://twitter.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/ondemand.Dropdown.b6cfab95.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/sharedCore.a435c075.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.AppModules.3246e805.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://api.twitter.com/1.1/guest/activate.json' \
+  -X 'OPTIONS' \
+  -H 'authority: api.twitter.com' \
+  -H 'accept: */*' \
+  -H 'access-control-request-method: POST' \
+  -H 'access-control-request-headers: authorization,x-csrf-token,x-twitter-active-user,x-twitter-client-language' \
+  -H 'origin: https://twitter.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.SideNav.04e69395.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.UserProfile.e70c04c5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~loader.AudioOnlyVideoPlayer~ondemand.InlinePlayer.36aa14f5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.AudioOnlyVideoPlayer.a5c37595.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/hashflag/config-2021-01-26-14.json' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.8cd49fb5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://api.twitter.com/1.1/guest/activate.json' \
+  -X 'POST' \
+  -H 'authority: api.twitter.com' \
+  -H 'content-length: 0' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; gt=1354075467620483075; ct0=fe995062fa2450fde1996538360948a4' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/ondemand.BranchSdk.78878ba5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://twitter.com/sw.js' \
+  -H 'authority: twitter.com' \
+  -H 'cache-control: max-age=0' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'service-worker: script' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: same-origin' \
+  -H 'sec-fetch-dest: serviceworker' \
+  -H 'referer: https://twitter.com/h4j3s' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; gt=1354075467620483075; ct0=fe995062fa2450fde1996538360948a4' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://twitter.com/i/js_inst?c_name=ui_metrics' \
+  -H 'authority: twitter.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/h4j3s' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; gt=1354075467620483075; ct0=fe995062fa2450fde1996538360948a4; _sl=1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.NewTweetsPill.ff8ee8b5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.WideLayout.27879ce5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-serviceworker/serviceworker.e1865815.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'cache-control: max-age=0' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.AboutThisAd.79f00d15.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://twitter.com/home?precache=1' \
+  -H 'authority: twitter.com' \
+  -H 'pragma: no-cache' \
+  -H 'cache-control: no-cache' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: same-origin' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/sw.js' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; gt=1354075467620483075; ct0=fe995062fa2450fde1996538360948a4; _sl=1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Account.c64f3f55.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.AdvancedSearch.46ac81e5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~loader.Typeahead~bundle.UserLists.56ff0465.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.Typeahead.db5e77d5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.SignupModule.c1142645.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~bundle.Explore~loader.ExploreSidebar.b25bb2b5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar.d23c6245.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.BadgeViolationsNotification.57f85145.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Birdwatch.dd8af655.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Bookmarks.70354f35.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.TimelineRenderer.73eb4145.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://api.twitter.com/1.1/jot/client_event.json' \
+  -X 'OPTIONS' \
+  -H 'authority: api.twitter.com' \
+  -H 'accept: */*' \
+  -H 'access-control-request-method: POST' \
+  -H 'access-control-request-headers: authorization,x-csrf-token,x-guest-token,x-twitter-active-user,x-twitter-client-language' \
+  -H 'origin: https://twitter.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://api.twitter.com/1.1/jot/client_event.json' \
+  -X 'OPTIONS' \
+  -H 'authority: api.twitter.com' \
+  -H 'accept: */*' \
+  -H 'access-control-request-method: POST' \
+  -H 'access-control-request-headers: authorization,x-csrf-token,x-guest-token,x-twitter-active-user,x-twitter-client-language' \
+  -H 'origin: https://twitter.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Collection.823054e5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://api.twitter.com/1.1/jot/client_event.json' \
+  -H 'authority: api.twitter.com' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458' \
+  --data-raw 'category=perftown&log=%5B%7B%22description%22%3A%22rweb%3Ainit%3AstorePrepare%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A21%7D%2C%7B%22description%22%3A%22rweb%3Attft%3AperfSupported%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A1%7D%2C%7B%22description%22%3A%22rweb%3Attft%3Aconnect%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A698%7D%2C%7B%22description%22%3A%22rweb%3Attft%3Aprocess%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A278%7D%2C%7B%22description%22%3A%22rweb%3Attft%3Aresponse%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A136%7D%2C%7B%22description%22%3A%22rweb%3Attft%3Ainteractivity%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A4725%7D%5D' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://api.twitter.com/1.1/jot/client_event.json' \
+  -H 'authority: api.twitter.com' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458' \
+  --data-raw 'debug=true&log=%5B%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671730125%2C%22bucket%22%3A%22control%22%2C%22version%22%3A6%2C%22experiment_key%22%3A%22rweb_use_app_prompt_10556%22%2C%22event_namespace%22%3A%7B%22page%22%3A%22ddg%22%2C%22section%22%3A%22rweb_use_app_prompt_10556%22%2C%22action%22%3A%22experiment%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A0%2C%22client_app_id%22%3A%223033300%22%7D%5D' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://twitter.com/i/api/graphql/ku_TJZNyXL2T4-D9Oypg7w/UserByScreenName?variables=%7B%22screen_name%22%3A%22h4j3s%22%2C%22withHighlightedLabel%22%3Atrue%7D' \
+  -H 'authority: twitter.com' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'content-type: application/json' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/h4j3s' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _sl=1; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://twitter.com/i/api/1.1/branch/init.json' \
+  -H 'authority: twitter.com' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'content-type: application/json' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/h4j3s' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _sl=1; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458' \
+  --data-binary '{}' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://twitter.com/i/api/2/guide.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&cards_platform=Web-12&include_cards=1&include_ext_alt_text=true&include_quote_count=true&include_reply_count=1&tweet_mode=extended&include_entities=true&include_user_entities=true&include_ext_media_color=true&include_ext_media_availability=true&send_error_codes=true&simple_quoted_tweet=true&count=20&display_location=web_sidebar&include_page_configuration=false&entity_tokens=false&ext=mediaStats%2ChighlightedLabel' \
+  -H 'authority: twitter.com' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'x-twitter-utcoffset: +0300' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/h4j3s' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _sl=1; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Compose.cd7a6425.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.ComposeMedia.dec77a45.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://app.link/_r?sdk=web2.56.2&branch_key=key_live_knJAF6W45vSHVJiP0wn8figpqFePX59K&callback=branch_callback__0' \
+  -H 'Connection: keep-alive' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  -H 'Accept: */*' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'Sec-Fetch-Mode: no-cors' \
+  -H 'Sec-Fetch-Dest: script' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'Accept-Language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.ConnectTab.6815e625.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/ondemand.ProfileSidebar.07316ef5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://api.twitter.com/1.1/jot/client_event.json' \
+  -H 'authority: api.twitter.com' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458' \
+  --data-raw 'category=perftown&log=%5B%7B%22description%22%3A%22rweb%3Ainit%3AstorePrepare%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A21%7D%2C%7B%22description%22%3A%22rweb%3Attft%3AperfSupported%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A1%7D%2C%7B%22description%22%3A%22rweb%3Attft%3Aconnect%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A698%7D%2C%7B%22description%22%3A%22rweb%3Attft%3Aprocess%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A278%7D%2C%7B%22description%22%3A%22rweb%3Attft%3Aresponse%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A136%7D%2C%7B%22description%22%3A%22rweb%3Attft%3Ainteractivity%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A4725%7D%2C%7B%22description%22%3A%22rweb%3Attfmc%3Aprofile%3Arender%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A7544%2C%22metadata%22%3A%7B%22source%22%3A%22rest%22%7D%7D%2C%7B%22description%22%3A%22rweb%3Attfmc%3Aprofile%3Attfmc%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A8656%2C%22metadata%22%3A%7B%22source%22%3A%22rest%22%7D%7D%5D' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Conversation.b1b61fb5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://twitter.com/i/api/2/timeline/profile/998820770355740672.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&cards_platform=Web-12&include_cards=1&include_ext_alt_text=true&include_quote_count=true&include_reply_count=1&tweet_mode=extended&include_entities=true&include_user_entities=true&include_ext_media_color=true&include_ext_media_availability=true&send_error_codes=true&simple_quoted_tweet=true&include_tweet_replies=false&count=20&userId=998820770355740672&ext=mediaStats%2ChighlightedLabel' \
+  -H 'authority: twitter.com' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/h4j3s' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _sl=1; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/profile_banners/998820770355740672/1610816385/600x200' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/profile_images/1347796007984238592/5FPTG3yC_200x200.jpg' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://twitter.com/i/api/2/timeline/media/998820770355740672.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&cards_platform=Web-12&include_cards=1&include_ext_alt_text=true&include_quote_count=true&include_reply_count=1&tweet_mode=extended&include_entities=true&include_user_entities=true&include_ext_media_color=true&include_ext_media_availability=true&send_error_codes=true&simple_quoted_tweet=true&count=20&ext=mediaStats%2ChighlightedLabel' \
+  -H 'authority: twitter.com' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/h4j3s' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _sl=1; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://www.google-analytics.com/analytics.js' \
+  -H 'authority: www.google-analytics.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.ConversationParticipants.efae00c5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.DMRichTextCompose.a7a8a075.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.DirectMessages.984e3e65.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://twitter.com/i/api/2/guide.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&cards_platform=Web-12&include_cards=1&include_ext_alt_text=true&include_quote_count=true&include_reply_count=1&tweet_mode=extended&include_entities=true&include_user_entities=true&include_ext_media_color=true&include_ext_media_availability=true&send_error_codes=true&simple_quoted_tweet=true&count=20&display_location=web_sidebar&include_page_configuration=false&profile_user_id=998820770355740672&entity_tokens=false&ext=mediaStats%2ChighlightedLabel' \
+  -H 'authority: twitter.com' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'x-twitter-utcoffset: +0300' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/h4j3s' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _sl=1; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://twitter.com/i/api/1.1/users/recommendations.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&&pc=true&display_location=profile_accounts_sidebar&limit=4&user_id=998820770355740672&ext=mediaStats%2ChighlightedLabel' \
+  -H 'authority: twitter.com' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/h4j3s' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _sl=1; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/media/EslGHftXIAMuTUP?format=jpg&name=120x120' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/ext_tw_video_thumb/1353325424873508866/pu/img/EW80KtaLBbzAKDGL?format=jpg&name=240x240' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/ext_tw_video_thumb/1352898202563969026/pu/img/zmeeHB7_nCU38EFF?format=jpg&name=120x120' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/ext_tw_video_thumb/1352310544720654336/pu/img/0182yS3iE7m_7plc?format=jpg&name=240x240' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/ext_tw_video_thumb/1352144632193441793/pu/img/4KQiJ5y4tpvmY6dQ?format=jpg&name=240x240' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/ext_tw_video_thumb/1351586851216359425/pu/img/we8dfEtraFOlsNBB?format=jpg&name=240x240' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.AbsolutePower.14cb1ab5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.graphQLDarkReads.8e6ad055.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://api.twitter.com/1.1/jot/client_event.json' \
+  -H 'authority: api.twitter.com' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458' \
+  --data-raw 'category=perftown&log=%5B%7B%22description%22%3A%22rweb%3Aurt%3AuserMedia%3Afetch_Initial%3Asuccess%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A437%7D%2C%7B%22description%22%3A%22rweb%3Aurt%3AuserMedia%3Afetch_Initial%3Aformat%3Asuccess%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A444%7D%2C%7B%22description%22%3A%22rweb%3Aurt%3AuserTweets%3Afetch_Initial%3Asuccess%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A760%7D%2C%7B%22description%22%3A%22rweb%3Aurt%3AuserTweets%3Afetch_Initial%3Aformat%3Asuccess%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A763%7D%2C%7B%22description%22%3A%22rweb%3Attfl%3Aprofile%3Arender%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A8438%2C%22metadata%22%3A%7B%22source%22%3A%22rest%22%7D%7D%2C%7B%22description%22%3A%22rweb%3Attfl%3Aprofile%3Attfl%22%2C%22product%22%3A%22rweb%22%2C%22duration_ms%22%3A9550%2C%22metadata%22%3A%7B%22source%22%3A%22rest%22%7D%7D%5D' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Display.a4f84b15.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://api2.branch.io/v1/open' \
+  -H 'authority: api2.branch.io' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --data-raw 'browser_fingerprint_id=882622094566799008&sdk=web2.56.2&options=%7B%22tracking_disabled%22%3Afalse%2C%22nonce%22%3A%22MGFmYzIzZWItYzkxYi00YjNhLTk1ZWYtYzY5MDQyNWViZmM2%22%7D&current_url=https%3A%2F%2Ftwitter.com%2Fh4j3s&screen_height=768&screen_width=1366&branch_key=key_live_knJAF6W45vSHVJiP0wn8figpqFePX59K' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Download.3ef3c645.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://api.twitter.com/1.1/jot/client_event.json' \
+  -H 'authority: api.twitter.com' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458' \
+  --data-raw 'debug=true&log=%5B%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671730141%2C%22items%22%3A%5B%5D%2C%22event_namespace%22%3A%7B%22page%22%3A%22app%22%2C%22component%22%3A%22smartlock_prompt%22%2C%22action%22%3A%22impression%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A1%2C%22client_app_id%22%3A%223033300%22%7D%2C%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671730147%2C%22items%22%3A%5B%5D%2C%22event_namespace%22%3A%7B%22page%22%3A%22app%22%2C%22component%22%3A%22smartlock_prompt%22%2C%22element%22%3A%22no_credentials%22%2C%22action%22%3A%22cancel%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A2%2C%22client_app_id%22%3A%223033300%22%7D%2C%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671732029%2C%22items%22%3A%5B%7B%22item_type%22%3A3%2C%22id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_user%22%3Afalse%2C%22is_user_follows_viewer%22%3Afalse%7D%5D%2C%22profile_id%22%3A%22998820770355740672%22%2C%22event_namespace%22%3A%7B%22page%22%3A%22profile%22%2C%22section%22%3A%22tweets%22%2C%22action%22%3A%22show%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A3%2C%22client_app_id%22%3A%223033300%22%7D%2C%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671732067%2C%22event_initiator%22%3A0%2C%22event_namespace%22%3A%7B%22page%22%3A%22profile%22%2C%22action%22%3A%22get_initial%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A4%2C%22client_app_id%22%3A%223033300%22%7D%2C%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671732841%2C%22event_initiator%22%3A0%2C%22event_namespace%22%3A%7B%22page%22%3A%22profile%22%2C%22section%22%3A%22tweets%22%2C%22action%22%3A%22get_initial%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A5%2C%22client_app_id%22%3A%223033300%22%7D%2C%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671732860%2C%22items%22%3A%5B%7B%22item_type%22%3A0%2C%22id%22%3A%221350872121522724872%22%2C%22suggestion_details%22%3A%7B%22suggestion_type%22%3A%22PinnedTweet%22%7D%2C%22author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%2C%22media_details%22%3A%7B%22photo_count%22%3A0%2C%22content_id%22%3A%221350871181042266113%22%2C%22publisher_id%22%3A%22998820770355740672%22%2C%22media_type%22%3A1%2C%22dynamic_ads%22%3Afalse%7D%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353977771995914240%22%2C%22author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353716170579435521%22%2C%22author_id%22%3A%22121313353%22%2C%22retweeting_tweet_id%22%3A%221353717096555950082%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%2C%22media_details%22%3A%7B%22photo_count%22%3A1%2C%22content_id%22%3A%221353716157900009472%22%2C%22publisher_id%22%3A%22998820770355740672%22%2C%22media_type%22%3A8%2C%22dynamic_ads%22%3Afalse%7D%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353688713189068800%22%2C%22author_id%22%3A%22827796068322639872%22%2C%22quoted_tweet_id%22%3A%221353599732535472128%22%2C%22quoted_author_id%22%3A%22458301345%22%2C%22retweeting_tweet_id%22%3A%221353710065983889409%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%2C%22media_details%22%3A%7B%22photo_count%22%3A0%2C%22content_id%22%3A%221353688683581419520%22%2C%22publisher_id%22%3A%22998820770355740672%22%2C%22media_type%22%3A1%2C%22dynamic_ads%22%3Afalse%7D%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353692781064187904%22%2C%22author_id%22%3A%2217248992%22%2C%22retweeting_tweet_id%22%3A%221353694524468584448%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353694503601901569%22%2C%22author_id%22%3A%22998820770355740672%22%2C%22quoted_tweet_id%22%3A%221353692781064187904%22%2C%22quoted_author_id%22%3A%2217248992%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353690264527917062%22%2C%22author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%2C%22media_details%22%3A%7B%22photo_count%22%3A1%2C%22content_id%22%3A%221353690257586331651%22%2C%22publisher_id%22%3A%22998820770355740672%22%2C%22media_type%22%3A8%2C%22dynamic_ads%22%3Afalse%7D%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353473433888296971%22%2C%22author_id%22%3A%22879713840119861249%22%2C%22retweeting_tweet_id%22%3A%221353668071475486720%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353456750255607813%22%2C%22author_id%22%3A%225633002%22%2C%22retweeting_tweet_id%22%3A%221353657935952572417%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353645092066779139%22%2C%22author_id%22%3A%221331669920879403011%22%2C%22quoted_tweet_id%22%3A%221353307184554250241%22%2C%22quoted_author_id%22%3A%221347875282473132033%22%2C%22retweeting_tweet_id%22%3A%221353645660478779394%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%2C%22media_details%22%3A%7B%22photo_count%22%3A1%2C%22content_id%22%3A%221353645089210445825%22%2C%22publisher_id%22%3A%22998820770355740672%22%2C%22media_type%22%3A8%2C%22dynamic_ads%22%3Afalse%7D%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353643375724003328%22%2C%22author_id%22%3A%22701177444%22%2C%22retweeting_tweet_id%22%3A%221353643469810634753%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353601911249895424%22%2C%22author_id%22%3A%22745437395625992192%22%2C%22retweeting_tweet_id%22%3A%221353602222408544257%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%2C%22media_details%22%3A%7B%22photo_count%22%3A0%2C%22content_id%22%3A%221353601857831268353%22%2C%22publisher_id%22%3A%22998820770355740672%22%2C%22media_type%22%3A1%2C%22dynamic_ads%22%3Afalse%7D%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353279762882588672%22%2C%22author_id%22%3A%22811259608845209600%22%2C%22retweeting_tweet_id%22%3A%221353600736526012417%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353599112499916801%22%2C%22author_id%22%3A%2223573083%22%2C%22retweeting_tweet_id%22%3A%221353599497872535552%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221318640486102536196%22%2C%22author_id%22%3A%221225271239398297602%22%2C%22retweeting_tweet_id%22%3A%221353436052774596608%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%2C%22media_details%22%3A%7B%22photo_count%22%3A1%2C%22content_id%22%3A%221318640482860199936%22%2C%22publisher_id%22%3A%22998820770355740672%22%2C%22media_type%22%3A8%2C%22dynamic_ads%22%3Afalse%7D%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353404571465510912%22%2C%22author_id%22%3A%22934190032713285632%22%2C%22retweeting_tweet_id%22%3A%221353404694073286656%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%2C%22media_details%22%3A%7B%22photo_count%22%3A1%2C%22content_id%22%3A%221353404550024224773%22%2C%22publisher_id%22%3A%22998820770355740672%22%2C%22media_type%22%3A8%2C%22dynamic_ads%22%3Afalse%7D%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353327973890469889%22%2C%22author_id%22%3A%221214921660295450630%22%2C%22retweeting_tweet_id%22%3A%221353328277725786114%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353325457786220545%22%2C%22author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%2C%22media_details%22%3A%7B%22photo_count%22%3A0%2C%22content_id%22%3A%221353325424873508866%22%2C%22publisher_id%22%3A%22998820770355740672%22%2C%22media_type%22%3A1%2C%22dynamic_ads%22%3Afalse%7D%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353299038146334722%22%2C%22author_id%22%3A%22998820770355740672%22%2C%22quoted_tweet_id%22%3A%221353296656859623425%22%2C%22quoted_author_id%22%3A%22173591677%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%7D%2C%7B%22item_type%22%3A0%2C%22id%22%3A%221353275526522273792%22%2C%22author_id%22%3A%221921444656%22%2C%22retweeting_tweet_id%22%3A%221353275732332568576%22%2C%22retweet_author_id%22%3A%22998820770355740672%22%2C%22is_viewer_follows_tweet_author%22%3Afalse%2C%22is_tweet_author_follows_viewer%22%3Afalse%2C%22media_details%22%3A%7B%22photo_count%22%3A0%2C%22content_id%22%3A%221353275483237003265%22%2C%22publisher_id%22%3A%22998820770355740672%22%2C%22media_type%22%3A1%2C%22dynamic_ads%22%3Afalse%7D%7D%5D%2C%22event_namespace%22%3A%7B%22page%22%3A%22profile%22%2C%22section%22%3A%22tweets%22%2C%22component%22%3A%22stream%22%2C%22action%22%3A%22results%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A6%2C%22client_app_id%22%3A%223033300%22%7D%2C%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671733164%2C%22items%22%3A%5B%7B%22item_type%22%3A3%2C%22id%22%3A%22998820770355740672%22%7D%2C%7B%22guide_item_details%22%3A%7B%22item_type%22%3A%22DAABDAABCwABAAAALEd1aWRlLWQ3ZjRiYzUxLTQ2NDUtNDY1ZS1hYTc4LThiNTk0ODAzMTA1MC0xCwACAAAALEd1aWRlLWQ3ZjRiYzUxLTQ2NDUtNDY1ZS1hYTc4LThiNTk0ODAzMTA1MC0xAAAPAAIMAAAAAQwAAQsAAQAAACxHdWlkZS1kN2Y0YmM1MS00NjQ1LTQ2NWUtYWE3OC04YjU5NDgwMzEwNTAtMQsAAgAAACxHdWlkZS1kN2Y0YmM1MS00NjQ1LTQ2NWUtYWE3OC04YjU5NDgwMzEwNTAtMQAAAA%3D%3D%22%7D%7D%5D%2C%22profile_id%22%3A%22998820770355740672%22%2C%22event_namespace%22%3A%7B%22page%22%3A%22profile%22%2C%22component%22%3A%22unified_events%22%2C%22action%22%3A%22impression%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A7%2C%22client_app_id%22%3A%223033300%22%7D%5D' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb.cf0f1325.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Explore.088d8d05.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/semantic_core_img/1353972410182103041/A1TJ_Fab?format=jpg&name=240x240' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/semantic_core_img/1347103093138157568/bCmuYecI?format=jpg&name=240x240' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/semantic_core_img/1354063520447356929/8URg5aBu?format=jpg&name=120x120' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://twitter.com/i/api/1.1/promoted_content/log.json' \
+  -H 'authority: twitter.com' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/h4j3s' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _sl=1; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458; _ga=GA1.2.445143685.1611671733; _gid=GA1.2.1401033174.1611671733' \
+  --data-raw 'event=impression&impression_id=1f8ff5c96a692616&epoch_ms=1611671733390' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://twitter.com/i/api/1.1/users/lookup.json?include_profile_interstitial_type=1&include_blocking=1&include_blocked_by=1&include_followed_by=1&include_want_retweets=1&include_mute_edge=1&include_can_dm=1&include_can_media_tag=1&skip_status=1&user_id=2725554732%2C437341200%2C2674772010' \
+  -H 'authority: twitter.com' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/h4j3s' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _sl=1; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458; _ga=GA1.2.445143685.1611671733; _gid=GA1.2.1401033174.1611671733' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.ExploreTopics.cfcd65d5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/profile_images/1316692639069155328/LjCG7tId_bigger.jpg' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/profile_images/378800000233074513/cbc9694872cc8bc15b03f776076b00aa_bigger.jpeg' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://pbs.twimg.com/profile_images/1242302926149881856/uffLDPDy_bigger.jpg' \
+  -H 'authority: pbs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.FleetsNotification.de05a0e5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.FollowerRequests.34112b45.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.GenericTimeline.e10c0145.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/ondemand.emoji.ar.8a20b955.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://api2.branch.io/v1/cpid' \
+  -H 'authority: api2.branch.io' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --data-raw 'user_data=%7B%22http_origin%22%3A%22https%3A%2F%2Ftwitter.com%2Fh4j3s%22%2C%22user_agent%22%3A%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F87.0.4280.141%20Safari%2F537.36%22%2C%22language%22%3A%22AR%22%2C%22screen_width%22%3A1366%2C%22screen_height%22%3A768%2C%22http_referrer%22%3A%22%22%2C%22browser_fingerprint_id%22%3A%22882622094566799008%22%2C%22sdk%22%3A%22web%22%2C%22sdk_version%22%3A%222.56.2%22%7D&branch_key=key_live_knJAF6W45vSHVJiP0wn8figpqFePX59K' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.GifSearch.7168fba5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~ondemand.EmojiPickerData~ondemand.EmojiPicker.b0f0db45.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.HomeTimeline.e3710bc5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.KeyboardShortcuts.99ac7125.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.LiveEvent.b286e755.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://api2.branch.io/v1/pageview' \
+  -H 'authority: api2.branch.io' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --data-raw 'event=pageview&metadata=%7B%22url%22%3A%22https%3A%2F%2Ftwitter.com%2Fh4j3s%22%2C%22user_agent%22%3A%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F87.0.4280.141%20Safari%2F537.36%22%2C%22language%22%3A%22ar-SA%22%2C%22screen_width%22%3A1366%2C%22screen_height%22%3A768%2C%22window_device_pixel_ratio%22%3A1%2C%22og_data%22%3A%7B%22%24og_title%22%3A%22%D8%AA%D9%88%D9%8A%D8%AA%D8%B1%20%5C%5C%20%D9%87%D8%A7%D8%AC%D8%B3%20%D8%A7%D9%84%D8%B3%D8%A8%D9%8A%D8%B9%D9%8A%20(h4j3s%40)%22%2C%22%24og_description%22%3A%22%E2%80%8F%E2%80%8F%E2%80%8F%E2%80%8F%E2%80%8F%E2%80%8F%E2%80%8F%E2%80%8F%E2%80%8F%E2%80%8F%D9%84%D8%A7%20%D8%AA%D8%AD%D8%A8%D9%86%D9%8A%20%D9%88%D9%84%D8%A7%20%D8%AA%D9%83%D8%B1%D9%87%D9%86%D9%8A%20%D9%88%D9%84%D8%A7%20%D9%81%D9%8A%D9%87%20%D8%B4%D9%8A%20%D8%A7%D8%A8%D9%8A%20%D8%A3%D8%AB%D8%A8%D8%AA%D9%87%20%D9%88%D9%84%D8%A7%20%D8%AA%D9%88%D8%AC%D8%AF%20%D8%A3%D9%87%D8%AF%D8%A7%D9%81%20%D9%86%D8%A8%D9%8A%D9%84%D9%87%20%D8%A7%D8%A8%D9%8A%20%D8%A3%D8%AD%D9%82%D9%82%D9%87%D8%A7%20%D9%88%D9%84%D8%A7%20%D8%B9%D9%86%D8%AF%D9%8A%20%D9%85%D8%AD%D8%AA%D9%88%D9%89%20%D9%84%D9%83.%22%2C%22%24og_image_url%22%3A%22https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1347796007984238592%2F5FPTG3yC_normal.jpg%22%2C%22%24og_type%22%3A%22profile%22%7D%2C%22hosted_deeplink_data%22%3A%7B%22pagetype%22%3A%22profile%22%2C%22loggedin%22%3A%22false%22%2C%22%24ios_deeplink_path%22%3A%22user%3Fscreen_name%3Dh4j3s%22%2C%22%24android_deeplink_path%22%3A%22user%3Fscreen_name%3Dh4j3s%22%2C%22%24deeplink_path%22%3A%22user%3Fscreen_name%3Dh4j3s%22%7D%2C%22title%22%3A%22%D8%AA%D9%88%D9%8A%D8%AA%D8%B1%20%5C%5C%20%D9%87%D8%A7%D8%AC%D8%B3%20%D8%A7%D9%84%D8%B3%D8%A8%D9%8A%D8%B9%D9%8A%20(h4j3s%40)%22%2C%22canonical_url%22%3A%22https%3A%2F%2Ftwitter.com%2Fh4j3s%22%7D&initial_referrer=&is_iframe=false&user_language=ar&open_app=false&has_app_websdk=false&feature=journeys&callback_string=branch_view_callback__1&data=%7B%22pagetype%22%3A%22profile%22%2C%22loggedin%22%3A%22false%22%2C%22%24ios_deeplink_path%22%3A%22user%3Fscreen_name%3Dh4j3s%22%2C%22%24android_deeplink_path%22%3A%22user%3Fscreen_name%3Dh4j3s%22%2C%22%24deeplink_path%22%3A%22user%3Fscreen_name%3Dh4j3s%22%2C%22%24canonical_url%22%3A%22https%3A%2F%2Ftwitter.com%2Fh4j3s%22%2C%22%24og_title%22%3A%22%5Cu062a%5Cu0648%5Cu064a%5Cu062a%5Cu0631%20%5C%5C%20%5Cu0647%5Cu0627%5Cu062c%5Cu0633%20%5Cu0627%5Cu0644%5Cu0633%5Cu0628%5Cu064a%5Cu0639%5Cu064a%20(h4j3s%40)%22%2C%22%24og_description%22%3A%22%5Cu200f%5Cu200f%5Cu200f%5Cu200f%5Cu200f%5Cu200f%5Cu200f%5Cu200f%5Cu200f%5Cu200f%5Cu0644%5Cu0627%20%5Cu062a%5Cu062d%5Cu0628%5Cu0646%5Cu064a%20%5Cu0648%5Cu0644%5Cu0627%20%5Cu062a%5Cu0643%5Cu0631%5Cu0647%5Cu0646%5Cu064a%20%5Cu0648%5Cu0644%5Cu0627%20%5Cu0641%5Cu064a%5Cu0647%20%5Cu0634%5Cu064a%20%5Cu0627%5Cu0628%5Cu064a%20%5Cu0623%5Cu062b%5Cu0628%5Cu062a%5Cu0647%20%5Cu0648%5Cu0644%5Cu0627%20%5Cu062a%5Cu0648%5Cu062c%5Cu062f%20%5Cu0623%5Cu0647%5Cu062f%5Cu0627%5Cu0641%20%5Cu0646%5Cu0628%5Cu064a%5Cu0644%5Cu0647%20%5Cu0627%5Cu0628%5Cu064a%20%5Cu0623%5Cu062d%5Cu0642%5Cu0642%5Cu0647%5Cu0627%20%5Cu0648%5Cu0644%5Cu0627%20%5Cu0639%5Cu0646%5Cu062f%5Cu064a%20%5Cu0645%5Cu062d%5Cu062a%5Cu0648%5Cu0649%20%5Cu0644%5Cu0643.%22%2C%22%24og_image_url%22%3A%22https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1347796007984238592%2F5FPTG3yC_normal.jpg%22%2C%22%24og_video%22%3Anull%2C%22%24og_type%22%3A%22profile%22%7D&source=web-sdk&branch_key=key_live_knJAF6W45vSHVJiP0wn8figpqFePX59K&session_id=882622098869601951&identity_id=882622098878418032&sdk=web2.56.2&browser_fingerprint_id=882622094566799008' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://twitter.com/i/api/1.1/branch/callback.json' \
+  -H 'authority: twitter.com' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'content-type: application/json' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/h4j3s' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _sl=1; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458; _ga=GA1.2.445143685.1611671733; _gid=GA1.2.1401033174.1611671733' \
+  --data-binary '{"cross_platform_id":null}' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.LoggedOutHome.91b53dd5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Login.9138f815.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Logout.c63c2d25.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Moment.34691f95.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.MomentMaker.a6c5c1e5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://api.twitter.com/1.1/jot/client_event.json' \
+  -H 'authority: api.twitter.com' \
+  -H 'dnt: 1' \
+  -H 'x-twitter-client-language: ar' \
+  -H 'x-csrf-token: fe995062fa2450fde1996538360948a4' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'x-guest-token: 1354075497832083458' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  -H 'cookie: personalization_id="v1_6xRRBN9v5jrcfkLq8CjPtQ=="; guest_id=v1%3A161167172360694253; ct0=fe995062fa2450fde1996538360948a4; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPT3Hj93AToMY3NyZl9p%250AZCIlNWYwZjUzOTkzOWU0MWUzNGFmY2NkZWY3MTIxOGNkZTg6B2lkIiU2MmM4%250AZmFjZTIwYWVlZTVmZDIxNzcwMzI0MDIwNGUxNA%253D%253D--bd685d961c62d26a6dfb558bc2ba73470b326c06; gt=1354075497832083458; _ga=GA1.2.445143685.1611671733; _gid=GA1.2.1401033174.1611671733' \
+  --data-raw 'debug=true&log=%5B%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671733165%2C%22items%22%3A%5B%7B%22item_type%22%3A3%2C%22id%22%3A%22998820770355740672%22%7D%2C%7B%22event_details%22%3A%7B%22event_id%22%3A%221219057585707315201%22%7D%2C%22guide_item_details%22%3A%7B%22item_type%22%3A%22DAABDAABCwABAAAAFXVuaWZpZWRfZXZlbnRzX21vZHVsZQsAAgAAAA51bmlmaWVkX2V2ZW50cwAADwACDAAAAAEMAAELAAEAAAAVdW5pZmllZF9ldmVudHNfbW9kdWxlCwACAAAADnVuaWZpZWRfZXZlbnRzAAAA%22%2C%22source_data%22%3A%22CwABAAAAJGQ3ZjRiYzUxLTQ2NDUtNDY1ZS1hYTc4LThiNTk0ODAzMTA1MAsAAgAAABMxMjE5MDU3NTg1NzA3MzE1MjAxBgADAAAKAAQRdXlUu1aQAAsABQAAAB1FdmVudEludGVyZXN0Q2FuZGlkYXRlQnVpbGRlcgoABhDq9mpU1HABAA%3D%3D%22%2C%22transparent_guide_details%22%3A%7B%22eventMetadata%22%3A%7B%22impressionId%22%3A%22d7f4bc51-4645-465e-aa78-8b5948031050%22%2C%22position%22%3A0%2C%22sourceId%22%3A%221258045075747147776%22%2C%22sourceName%22%3A%22EventInterestCandidateBuilder%22%2C%22eventId%22%3A%221219057585707315201%22%7D%7D%7D%7D%5D%2C%22profile_id%22%3A%22998820770355740672%22%2C%22event_namespace%22%3A%7B%22page%22%3A%22profile%22%2C%22component%22%3A%22unified_events%22%2C%22element%22%3A%22event%22%2C%22action%22%3A%22impression%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A8%2C%22client_app_id%22%3A%223033300%22%7D%2C%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671733165%2C%22items%22%3A%5B%7B%22item_type%22%3A3%2C%22id%22%3A%22998820770355740672%22%7D%2C%7B%22event_details%22%3A%7B%22event_id%22%3A%221319550212117991424%22%7D%2C%22guide_item_details%22%3A%7B%22item_type%22%3A%22DAABDAABCwABAAAAFXVuaWZpZWRfZXZlbnRzX21vZHVsZQsAAgAAAA51bmlmaWVkX2V2ZW50cwAADwACDAAAAAEMAAELAAEAAAAVdW5pZmllZF9ldmVudHNfbW9kdWxlCwACAAAADnVuaWZpZWRfZXZlbnRzAAAA%22%2C%22source_data%22%3A%22CwABAAAAJGQ3ZjRiYzUxLTQ2NDUtNDY1ZS1hYTc4LThiNTk0ODAzMTA1MAsAAgAAABMxMzE5NTUwMjEyMTE3OTkxNDI0BgADAAEKAAQSXqd2xBTgAAsABQAAAB1FdmVudEludGVyZXN0Q2FuZGlkYXRlQnVpbGRlcgoABhJP%2B%2B04lZAAAA%3D%3D%22%2C%22transparent_guide_details%22%3A%7B%22eventMetadata%22%3A%7B%22impressionId%22%3A%22d7f4bc51-4645-465e-aa78-8b5948031050%22%2C%22position%22%3A1%2C%22sourceId%22%3A%221323679469031186432%22%2C%22sourceName%22%3A%22EventInterestCandidateBuilder%22%2C%22eventId%22%3A%221319550212117991424%22%7D%7D%7D%7D%5D%2C%22profile_id%22%3A%22998820770355740672%22%2C%22event_namespace%22%3A%7B%22page%22%3A%22profile%22%2C%22component%22%3A%22unified_events%22%2C%22element%22%3A%22event%22%2C%22action%22%3A%22impression%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A9%2C%22client_app_id%22%3A%223033300%22%7D%2C%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671733165%2C%22items%22%3A%5B%7B%22item_type%22%3A3%2C%22id%22%3A%22998820770355740672%22%7D%2C%7B%22event_details%22%3A%7B%22event_id%22%3A%221354061464366010368%22%7D%2C%22guide_item_details%22%3A%7B%22item_type%22%3A%22DAABDAABCwABAAAAFXVuaWZpZWRfZXZlbnRzX21vZHVsZQsAAgAAAA51bmlmaWVkX2V2ZW50cwAADwACDAAAAAEMAAELAAEAAAAVdW5pZmllZF9ldmVudHNfbW9kdWxlCwACAAAADnVuaWZpZWRfZXZlbnRzAAAA%22%2C%22source_data%22%3A%22CwABAAAAJGQ3ZjRiYzUxLTQ2NDUtNDY1ZS1hYTc4LThiNTk0ODAzMTA1MAsAAgAAABMxMzU0MDYxNDY0MzY2MDEwMzY4BgADAAQKAAQSypmA2VTQAQsABQAAAB1FdmVudEludGVyZXN0Q2FuZGlkYXRlQnVpbGRlcgoABhLKl7pLlNAAAA%3D%3D%22%2C%22transparent_guide_details%22%3A%7B%22eventMetadata%22%3A%7B%22impressionId%22%3A%22d7f4bc51-4645-465e-aa78-8b5948031050%22%2C%22position%22%3A4%2C%22sourceId%22%3A%221354063416659333121%22%2C%22sourceName%22%3A%22EventInterestCandidateBuilder%22%2C%22eventId%22%3A%221354061464366010368%22%7D%7D%7D%7D%5D%2C%22profile_id%22%3A%22998820770355740672%22%2C%22event_namespace%22%3A%7B%22page%22%3A%22profile%22%2C%22component%22%3A%22unified_events%22%2C%22element%22%3A%22event%22%2C%22action%22%3A%22impression%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A10%2C%22client_app_id%22%3A%223033300%22%7D%2C%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671733165%2C%22event_namespace%22%3A%7B%22page%22%3A%22profile%22%2C%22component%22%3A%22unified_events%22%2C%22action%22%3A%22impression%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A11%2C%22client_app_id%22%3A%223033300%22%7D%2C%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671733166%2C%22event_initiator%22%3A0%2C%22event_namespace%22%3A%7B%22page%22%3A%22profile%22%2C%22action%22%3A%22get_initial%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A12%2C%22client_app_id%22%3A%223033300%22%7D%2C%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671733402%2C%22items%22%3A%5B%7B%22item_type%22%3A3%2C%22id%22%3A%222725554732%22%2C%22suggestion_details%22%3A%7B%22source_data%22%3A%22DAABCgABnST4QP%2FNQukKAAKCdfLqCsZbuQAIAAIAAAAmCAADAAAAAAA%3D%22%7D%2C%22is_viewer_follows_user%22%3Afalse%2C%22is_user_follows_viewer%22%3Afalse%2C%22promoted_id%22%3A%221f8ff5c96a692616%22%7D%2C%7B%22item_type%22%3A3%2C%22id%22%3A%22437341200%22%2C%22suggestion_details%22%3A%7B%22source_data%22%3A%22DAABCgABnST4QP%2FNQukKAAKCdfLqCsZbuQAIAAIAAACDCAADAAAAAAA%3D%22%7D%2C%22is_viewer_follows_user%22%3Afalse%2C%22is_user_follows_viewer%22%3Afalse%7D%2C%7B%22item_type%22%3A3%2C%22id%22%3A%222674772010%22%2C%22suggestion_details%22%3A%7B%22source_data%22%3A%22DAABCgABnST4QP%2FNQukKAAKCdfLqCsZbuQAIAAIAAACDCAADAAAAAAA%3D%22%7D%2C%22is_viewer_follows_user%22%3Afalse%2C%22is_user_follows_viewer%22%3Afalse%7D%5D%2C%22profile_id%22%3A%22998820770355740672%22%2C%22event_namespace%22%3A%7B%22page%22%3A%22profile%22%2C%22component%22%3A%22suggest_who_to_follow%22%2C%22element%22%3A%22user%22%2C%22action%22%3A%22results%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A13%2C%22client_app_id%22%3A%223033300%22%7D%2C%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671733567%2C%22items%22%3A%5B%7B%22guide_item_details%22%3A%7B%22item_type%22%3A%22DAABDAABCwABAAAALEd1aWRlLWQ3ZjRiYzUxLTQ2NDUtNDY1ZS1hYTc4LThiNTk0ODAzMTA1MC0xCwACAAAALEd1aWRlLWQ3ZjRiYzUxLTQ2NDUtNDY1ZS1hYTc4LThiNTk0ODAzMTA1MC0xAAAPAAIMAAAAAQwAAQsAAQAAACxHdWlkZS1kN2Y0YmM1MS00NjQ1LTQ2NWUtYWE3OC04YjU5NDgwMzEwNTAtMQsAAgAAACxHdWlkZS1kN2Y0YmM1MS00NjQ1LTQ2NWUtYWE3OC04YjU5NDgwMzEwNTAtMQAAAA%3D%3D%22%7D%7D%2C%7B%22event_details%22%3A%7B%22event_id%22%3A%221219057585707315201%22%7D%2C%22guide_item_details%22%3A%7B%22item_type%22%3A%22DAABDAABCwABAAAAFXVuaWZpZWRfZXZlbnRzX21vZHVsZQsAAgAAAA51bmlmaWVkX2V2ZW50cwAADwACDAAAAAEMAAELAAEAAAAVdW5pZmllZF9ldmVudHNfbW9kdWxlCwACAAAADnVuaWZpZWRfZXZlbnRzAAAA%22%2C%22source_data%22%3A%22CwABAAAAJGQ3ZjRiYzUxLTQ2NDUtNDY1ZS1hYTc4LThiNTk0ODAzMTA1MAsAAgAAABMxMjE5MDU3NTg1NzA3MzE1MjAxBgADAAAKAAQRdXlUu1aQAAsABQAAAB1FdmVudEludGVyZXN0Q2FuZGlkYXRlQnVpbGRlcgoABhDq9mpU1HABAA%3D%3D%22%2C%22transparent_guide_details%22%3A%7B%22eventMetadata%22%3A%7B%22impressionId%22%3A%22d7f4bc51-4645-465e-aa78-8b5948031050%22%2C%22position%22%3A0%2C%22sourceId%22%3A%221258045075747147776%22%2C%22sourceName%22%3A%22EventInterestCandidateBuilder%22%2C%22eventId%22%3A%221219057585707315201%22%7D%7D%7D%7D%2C%7B%22event_details%22%3A%7B%22event_id%22%3A%221319550212117991424%22%7D%2C%22guide_item_details%22%3A%7B%22item_type%22%3A%22DAABDAABCwABAAAAFXVuaWZpZWRfZXZlbnRzX21vZHVsZQsAAgAAAA51bmlmaWVkX2V2ZW50cwAADwACDAAAAAEMAAELAAEAAAAVdW5pZmllZF9ldmVudHNfbW9kdWxlCwACAAAADnVuaWZpZWRfZXZlbnRzAAAA%22%2C%22source_data%22%3A%22CwABAAAAJGQ3ZjRiYzUxLTQ2NDUtNDY1ZS1hYTc4LThiNTk0ODAzMTA1MAsAAgAAABMxMzE5NTUwMjEyMTE3OTkxNDI0BgADAAEKAAQSXqd2xBTgAAsABQAAAB1FdmVudEludGVyZXN0Q2FuZGlkYXRlQnVpbGRlcgoABhJP%2B%2B04lZAAAA%3D%3D%22%2C%22transparent_guide_details%22%3A%7B%22eventMetadata%22%3A%7B%22impressionId%22%3A%22d7f4bc51-4645-465e-aa78-8b5948031050%22%2C%22position%22%3A1%2C%22sourceId%22%3A%221323679469031186432%22%2C%22sourceName%22%3A%22EventInterestCandidateBuilder%22%2C%22eventId%22%3A%221319550212117991424%22%7D%7D%7D%7D%2C%7B%22item_type%22%3A8%2C%22item_query%22%3A%22%23%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6_l%D9%84%D8%A7%D9%86%22%2C%22name%22%3A%22%23%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6_l%D9%84%D8%A7%D9%86%22%2C%22guide_item_details%22%3A%7B%22item_type%22%3A%22DAABDAABCwABAAAAFXVuaWZpZWRfZXZlbnRzX21vZHVsZQsAAgAAAAZ0cmVuZHMAAA8AAgwAAAABDAABCwABAAAAFXVuaWZpZWRfZXZlbnRzX21vZHVsZQsAAgAAAAZ0cmVuZHMAAAA%3D%22%2C%22source_data%22%3A%22CwABAAAAJGQ3ZjRiYzUxLTQ2NDUtNDY1ZS1hYTc4LThiNTk0ODAzMTA1MAsAAgAAADQ6bG9jYXRpb25fcmVxdWVzdDpoYXNodGFnX3RyZW5kOnRheGlfY291bnRyeV9zb3VyY2U6BgADAAILAAQAAAAVI9in2YTYsdmK2KfYtl9s2YTYp9mGDwAFCwAAAAEAAAAWI9in2YTYsdmK2KfYtl%2FYp9mE2KfZhgoABxLKoDi2F2AADwAJCgAAAAACAA0ADwAOCwAAAAIAAAAYI9i12YjYql%2FYp9mE2KfZhtmB2KzYp9ixAAAAGCPZh9mG2K9f2KfZhNmC2K3Yt9in2YbZigA%3D%22%2C%22transparent_guide_details%22%3A%7B%22trendMetadata%22%3A%7B%22impressionId%22%3A%22d7f4bc51-4645-465e-aa78-8b5948031050%22%2C%22impressionToken%22%3A%22%3Alocation_request%3Ahashtag_trend%3Ataxi_country_source%3A%22%2C%22position%22%3A2%2C%22trendName%22%3A%22%23%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6_l%D9%84%D8%A7%D9%86%22%2C%22relatedTerms%22%3A%5B%22%23%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6_%D8%A7%D9%84%D8%A7%D9%86%22%5D%2C%22clusterId%22%3A%221354070803411853312%22%2C%22topicIds%22%3A%5B%5D%2C%22containsCuratedTitle%22%3Afalse%2C%22displayedRelatedVariants%22%3A%5B%22%23%D8%B5%D9%88%D8%AA_%D8%A7%D9%84%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1%22%2C%22%23%D9%87%D9%86%D8%AF_%D8%A7%D9%84%D9%82%D8%AD%D8%B7%D8%A7%D9%86%D9%8A%22%5D%7D%7D%7D%7D%2C%7B%22item_type%22%3A8%2C%22item_query%22%3A%22%23%D8%B5%D9%88%D8%AA_%D8%A7%D9%84%D8%B5%D8%A7%D8%B1%D9%88%D8%AE%22%2C%22name%22%3A%22%23%D8%B5%D9%88%D8%AA_%D8%A7%D9%84%D8%B5%D8%A7%D8%B1%D9%88%D8%AE%22%2C%22guide_item_details%22%3A%7B%22item_type%22%3A%22DAABDAABCwABAAAAFXVuaWZpZWRfZXZlbnRzX21vZHVsZQsAAgAAAAZ0cmVuZHMAAA8AAgwAAAABDAABCwABAAAAFXVuaWZpZWRfZXZlbnRzX21vZHVsZQsAAgAAAAZ0cmVuZHMAAAA%3D%22%2C%22source_data%22%3A%22CwABAAAAJGQ3ZjRiYzUxLTQ2NDUtNDY1ZS1hYTc4LThiNTk0ODAzMTA1MAsAAgAAADQ6bG9jYXRpb25fcmVxdWVzdDpoYXNodGFnX3RyZW5kOnRheGlfY291bnRyeV9zb3VyY2U6BgADAAMLAAQAAAAWI9i12YjYql%2FYp9mE2LXYp9ix2YjYrg8ABQsAAAABAAAAFdi12YjYqiDYp9mE2LXYp9ix2YjYrg8ACQoAAAAAAgANAAA%3D%22%2C%22transparent_guide_details%22%3A%7B%22trendMetadata%22%3A%7B%22impressionId%22%3A%22d7f4bc51-4645-465e-aa78-8b5948031050%22%2C%22impressionToken%22%3A%22%3Alocation_request%3Ahashtag_trend%3Ataxi_country_source%3A%22%2C%22position%22%3A3%2C%22trendName%22%3A%22%23%D8%B5%D9%88%D8%AA_%D8%A7%D9%84%D8%B5%D8%A7%D8%B1%D9%88%D8%AE%22%2C%22relatedTerms%22%3A%5B%22%D8%B5%D9%88%D8%AA%20%D8%A7%D9%84%D8%B5%D8%A7%D8%B1%D9%88%D8%AE%22%5D%2C%22topicIds%22%3A%5B%5D%2C%22containsCuratedTitle%22%3Afalse%7D%7D%7D%7D%2C%7B%22event_details%22%3A%7B%22event_id%22%3A%221354061464366010368%22%7D%2C%22guide_item_details%22%3A%7B%22item_type%22%3A%22DAABDAABCwABAAAAFXVuaWZpZWRfZXZlbnRzX21vZHVsZQsAAgAAAA51bmlmaWVkX2V2ZW50cwAADwACDAAAAAEMAAELAAEAAAAVdW5pZmllZF9ldmVudHNfbW9kdWxlCwACAAAADnVuaWZpZWRfZXZlbnRzAAAA%22%2C%22source_data%22%3A%22CwABAAAAJGQ3ZjRiYzUxLTQ2NDUtNDY1ZS1hYTc4LThiNTk0ODAzMTA1MAsAAgAAABMxMzU0MDYxNDY0MzY2MDEwMzY4BgADAAQKAAQSypmA2VTQAQsABQAAAB1FdmVudEludGVyZXN0Q2FuZGlkYXRlQnVpbGRlcgoABhLKl7pLlNAAAA%3D%3D%22%2C%22transparent_guide_details%22%3A%7B%22eventMetadata%22%3A%7B%22impressionId%22%3A%22d7f4bc51-4645-465e-aa78-8b5948031050%22%2C%22position%22%3A4%2C%22sourceId%22%3A%221354063416659333121%22%2C%22sourceName%22%3A%22EventInterestCandidateBuilder%22%2C%22eventId%22%3A%221354061464366010368%22%7D%7D%7D%7D%5D%2C%22event_namespace%22%3A%7B%22page%22%3A%22profile%22%2C%22component%22%3A%22stream%22%2C%22action%22%3A%22results%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A14%2C%22client_app_id%22%3A%223033300%22%7D%2C%7B%22_category_%22%3A%22client_event%22%2C%22format_version%22%3A2%2C%22triggered_on%22%3A1611671734185%2C%22event_namespace%22%3A%7B%22page%22%3A%22app%22%2C%22section%22%3A%22browser%22%2C%22element%22%3A%22has_no_app%22%2C%22action%22%3A%22launch%22%2C%22client%22%3A%22m5%22%7D%2C%22client_event_sequence_start_timestamp%22%3A1611671730125%2C%22client_event_sequence_number%22%3A15%2C%22client_app_id%22%3A%223033300%22%7D%5D' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.MultiAccount.20873455.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument.8cd49fb5.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.NewsLanding.6162fb85.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.NotMyAccount.f45acf75.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.NotificationDetail.a425e5a5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Notifications.d4c12b25.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Ocf.8225fec5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Place.0c897a55.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.PlainTextCompose.d5066b05.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.ProfileRedirect.7f6b5935.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.QuoteTweetActivity.fd6892d5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Report.b7c14375.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.RichTextCompose.a6edae95.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Search.30ca2415.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Settings.e0ff5bb5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.SettingsInternals.d7721ef5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.SettingsProfile.7cc67175.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.SettingsRevamp.8efc30f5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.SettingsTransparency.e6db53b5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.SmsLogin.ca29cf85.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.TopicPeek.2b2ba285.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Topics.0ea24575.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Trends.4c31c675.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.TweetActivity.5a268b05.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.TweetMediaDetail.e5c623c5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.TweetMediaTags.6a6ac825.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.Twitterversary.b7212275.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.UserAvatar.51401265.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.UserFollowLists.cf5786b5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.UserLists.96387bc5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.UserMoments.1a5623e5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.UserProfile.e70c04c5.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/bundle.UserRedirect.26847cf5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/i18n/ar.1ed3b2b5.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.AbsolutePower.14cb1ab5.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.AppModules.3246e805.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.AudioOnlyVideoPlayer.a5c37595.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.DMDrawer.81b0c685.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.DashMenu.d42bd6e5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar.d23c6245.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.FeedbackSheet.e3a2d645.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.FeedbackTombstone.ec722505.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.HWCard.0e94aff5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.NewTweetsPill.ff8ee8b5.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.ProfileClusterFollow.1fedf125.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.PushNotificationsPrompt.52cacfb5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.SideNav.04e69395.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.SignupModule.c1142645.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.TimelineRenderer.73eb4145.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.TweetCurationActionMenu.9bb84c45.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.Typeahead.db5e77d5.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.WideLayout.27879ce5.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.directMessagesData.2d62a505.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.graphQLDarkReads.8e6ad055.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loader.personalizationData.a59630a5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loaders.video.PlayerHls13.090e6765.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loaders.video.VideoPlayerDefaultUI.13389875.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/loaders.video.VideoPlayerEventsUI.e7a6cd05.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/main.42bd4845.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/polyfills.4d8d59c5.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/sharedCore.a435c075.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~bundle.ComposeMedia~bundle.Ocf~bundle.SettingsProfile~bundle.UserLists.1b180985.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~bundle.Compose~bundle.RichTextCompose~bundle.PlainTextCompose.e9d922d5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~bundle.DirectMessages~bundle.TweetMediaDetail~bundle.UserAvatar.815c6e75.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~bundle.Explore~loader.ExploreSidebar.b25bb2b5.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~bundle.LiveEvent~bundle.UserMoments.77a77445.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~bundle.RichTextCompose~bundle.DMRichTextCompose~ondemand.RichText.d0b6ad25.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~bundle.Settings~bundle.SettingsRevamp~bundle.SettingsTransparency.a64a7435.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~bundle.Settings~ondemand.SettingsInternals~bundle.SettingsTransparency~bundle.SettingsRevamp~ondemand..ad5a9005.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~bundle.TopicPeek~ondemand.EmojiPicker.c36755e5.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~loader.AudioOnlyVideoPlayer~ondemand.InlinePlayer.36aa14f5.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~loader.DMDrawer~bundle.Compose~bundle.RichTextCompose~bundle.DirectMessages~bundle.DMRichTextCompose~b.928db985.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~loader.DMDrawer~bundle.DirectMessages~bundle.DMRichTextCompose.3ec5f935.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~loader.DashMenu~bundle.Account.9fe26b95.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~loader.Typeahead~bundle.UserLists.56ff0465.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlayerEventsUI.91dc7d75.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~ondemand.EmojiPickerData~ondemand.EmojiPicker.b0f0db45.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~ondemand.GraphQLModule~ondemand.UserProfileGraphQL.de9c4695.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/shared~ondemand.SettingsInternals~ondemand.SettingsRevamp.9b4a6875.js' \
+  -H 'authority: abs.twimg.com' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'dnt: 1' \
+  -H 'accept: */*' \
+  -H 'origin: https://twitter.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/' \
+  -H 'accept-language: ar-SA,ar;q=0.9' \
+  --compressed ;
+curl --socks5-hostname localhost:9050  'https://abs.twimg.com/responsive-web/client-web/vendors~main.f7f618b5.js' \
+  -H 'Referer: https://twitter.com/' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' \
+  -H 'DNT: 1' \
+  --compressed ;
+sudo service tor reload
+done
